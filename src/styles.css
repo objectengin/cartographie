@@ -1,0 +1,7 @@
+/* Style globaux & commun à l'application */
+.list-group-item {
+  min-height: 60px;
+  display: block;
+  flex-direction: column; /* direction d'affichage verticale */
+  justify-content: center; /* alignement vertical */
+}

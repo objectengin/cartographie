@@ -1,0 +1,6 @@
+[
+  {"id": 1, "text": "React", "status": "active", "editing": false},
+  {"id": 2, "text": "Angular2", "status": "active", "editing": false},
+  {"id": 3, "text": "Immutable", "status": "completed", "editing": false},
+  {"id": 4, "text": "TypeScript", "status": "completed", "editing": false}
+]
