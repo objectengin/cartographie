@@ -1,10 +1,10 @@
-import { Injectable } from '@angular/core';
+import { Injectable } from "@angular/core";
 import { Response, Http } from "@angular/http";
-import { Observable } from 'rxjs';
+import { Observable } from "rxjs";
 
-import { Todo } from '../entities/todo';
+import { Todo } from "../entities/todo";
 
-import { HttpBase } from '../../utils/http-base';
+import { HttpBase } from "../../utils/http-base";
 
 @Injectable()
 export class TodoService extends HttpBase {
@@ -25,7 +25,7 @@ export class TodoService extends HttpBase {
 
   getTodos(): Observable<Todo[]> {
     return this.http
-      .get('http://demo5935668.mockable.io/todos')
+      .get("http://demo5935668.mockable.io/todos")
       .map(this.extractData)
       .catch(this.handleError);
   }
